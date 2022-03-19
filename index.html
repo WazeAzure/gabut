@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Tembak ?</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+		<h1> Hi Cantik <i class="fa fa-heart"></h1>
+		<img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif">
+		<p> Mau Kah Kamu Menjadi Pacarku?</p>
+		<button type="submit" onclick="alert('I LOVE YOU!!!')"> Mau </button>
+		<button id="ga_mau" type="submit" onclick="gamau(this)"> Ga Mau </button>
+		
+	<script type="javascript/text">
+		function gamau(a){
+			var text = document.getElementById("ga_mau");
+			var i = Math.floor(Math.random() * 300) + 1,
+    		var j = Math.floor(Math.random() * 300) + text.offsetTop;
+			a.style.left = i + "px";
+			a.stle.top = j + "px";
+		}
+	</script>
+	</body>
+</html>
