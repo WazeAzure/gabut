@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Putus ?</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<h1> Hi Ganteng </h1>
+		<img src="https://glitzco1.sgp1.digitaloceanspaces.com/public/post/cara-minta-putus-yang-baik.jpg">
+		<p> PUTUS YOK!!!</p>
+		<button onclick="alert('BYE! *slam door')"> MAU </button>
+		<button id="ga_mau" onclick="gamau(this)" style="position: absolute;"> Jangan dong </button>
+		
+	<script>
+		function gamau(a){
+			// console.log("a is called");
+			var text = document.getElementById("ga_mau");
+			var i = Math.floor(Math.random() * 300) + 1;
+    			var j = Math.floor(Math.random() * 300) + 1;
+			a.style.left = i + "px";
+			a.style.top = j + "px";
+		}
+	</script>
+	</body>
+</html>
